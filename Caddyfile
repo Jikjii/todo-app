@@ -1,5 +1,5 @@
 todo.jikjii.com {
-    reverse_proxy todo-app:4000 {
+    reverse_proxy todo-app:3000 {
         header_down Strict-Trasport-Security max-age=31536000;
     }
 }
